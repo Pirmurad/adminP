@@ -1,0 +1,54 @@
+.breadcrumb, .breadcrumb > .active  {
+    color: #ccc;
+    float: right;
+}
+
+.card > .card-body >  .media  > .w-circle-icon:hover
+{
+    background: rgba(0,0,0,0.15);
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.card > .card-footer:hover{
+    color: #fff;
+    background: rgba(0,0,0,0.15);
+}
+
+.handler
+{
+    cursor: pointer;
+}
+
+
+
+.card-body .lightgallery > .gallery 
+{
+    text-align: center;
+    float: left;
+}
+.card-body .show-g  img
+{
+    height: 100px;
+    width: 120px;
+    cursor: pointer;
+}
+.card-body .lightgallery > .gallery >   #ul-li > li > img
+{
+    object-fit: cover;
+    height: 170px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #0d6aad;
+    width: 100%;
+    cursor: pointer;
+}
+.card-body .lightgallery > .gallery >  #ul-li > li
+{
+    margin-right: 15px;
+}
+.card-body .lightgallery  #dodelete
+{
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    outline: none;
+}
